@@ -12,6 +12,66 @@ $(document).ready(function () {
     $("#clear").click(function () {
         $('#input').val("");
     });
+    $("#btnA").click(function () {
+        x = $("#input").val();
+        $('#input').val(x+"7");
+    });
+    $("#btnB").click(function () {
+        x = $("#input").val();
+        $('#input').val(x+"8");
+    });
+    $("#btnC").click(function () {
+        x = $("#input").val();
+        $('#input').val(x+"9");
+    });
+    $("#btnD").click(function () {
+        x = $("#input").val();
+        $('#input').val(x+"/");
+    });
+    $("#btnE").click(function () {
+        x = $("#input").val();
+        $('#input').val(x+"4");
+    });
+    $("#btnF").click(function () {
+        x = $("#input").val();
+        $('#input').val(x+"5");
+    });
+    $("#btnG").click(function () {
+        x = $("#input").val();
+        $('#input').val(x+"6");
+    });
+    $("#btnH").click(function () {
+        x = $("#input").val();
+        $('#input').val(x+"*");
+    });
+    $("#btnI").click(function () {
+        x = $("#input").val();
+        $('#input').val(x+"1");
+    });
+    $("#btnJ").click(function () {
+        x = $("#input").val();
+        $('#input').val(x+"2");
+    });
+    $("#btnK").click(function () {
+        x = $("#input").val();
+        $('#input').val(x+"3");
+    });
+    $("#btnL").click(function () {
+        x = $("#input").val();
+        $('#input').val(x+"+");
+    });
+    $("#btnM").click(function () {
+        x = $("#input").val();
+        $('#input').val(x+".");
+    });
+    $("#btnN").click(function () {
+        x = $("#input").val();
+        $('#input').val(x+"0");
+    });
+    $("#btnO").click(function () {
+        x = $("#input").val();
+        $('#input').val(x+"-");
+    });
 });
 
 async function fetchTopFive(sub) {
