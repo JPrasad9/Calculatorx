@@ -12,6 +12,11 @@ $(document).ready(function () {
     $("#clear").click(function () {
         $('#input').val("");
     });
+    $("#backspace").click(function () {
+        x = $("#input").val();
+        var y=x.slice(0, -1);
+        $('#input').val(y);
+    });
     $("#btnA").click(function () {
         x = $("#input").val();
         $('#input').val(x+"7");
