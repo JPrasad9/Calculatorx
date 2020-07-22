@@ -1,3 +1,6 @@
+// import React from 'react';
+// import ReactDOM from 'react-dom';
+// // import App from './App';
 
 var x,res;
 $(document).ready(function () {
@@ -5,6 +8,9 @@ $(document).ready(function () {
         //   $("#cal").text("Hello world!");
         x = $("#input").val();
         fetchTopFive('javascript');
+    });
+    $("#clear").click(function () {
+        $('#input').val("");
     });
 });
 
